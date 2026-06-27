@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Madam's Boutique is a premium luxury fashion destination offering designer collections, bridal couture, unstitched wear, accessories, and timeless style." />
+  <meta name="theme-color" content="#4b1637" />
+  <meta property="og:title" content="Madam's Boutique | Luxury Fashion House" />
+  <meta property="og:description"
+    content="Discover exquisite designer fashion, premium accessories, and bridal couture at Madam's Boutique." />
+  <meta property="og:type" content="website" />
+  <title>Madam's Boutique | Luxury Fashion House</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="preloader" aria-label="Loading Madam's Boutique">
+    <div class="spinner-border" role="status" aria-hidden="true"></div>
+  </div>
+
+  <header class="topbar">
+    <div class="container py-3 d-flex justify-content-between align-items-center">
+      <a class="brand d-flex align-items-center gap-2 text-decoration-none" href="index.html">
+        <img src="images/logo.svg" alt="Madam's Boutique logo" class="brand-logo" />
+        <div>
+          <h1 class="brand-title mb-0">Madam's Boutique</h1>
+          <p class="brand-subtitle mb-0">Luxury Fashion House</p>
+        </div>
+      </a>
+      <div class="top-actions d-none d-md-flex align-items-center gap-3">
+        <a href="about.html" aria-label="My account"><i class="bi bi-person"></i></a>
+        <a href="gallery.html" aria-label="Wishlist"><i class="bi bi-heart"></i></a>
+        <a href="collections.html" aria-label="Shopping bag"><i class="bi bi-bag"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="designers.html">Designers</a></li>
+          <li class="nav-item"><a class="nav-link" href="collections.html">Collection</a></li>
+          <li class="nav-item"><a class="nav-link" href="unstitched.html">Unstitched</a></li>
+          <li class="nav-item"><a class="nav-link" href="accessories.html">Accessories</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="compare.html">Brands Compare</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+        <a class="nav-search" href="#" aria-label="Search"><i class="bi bi-search"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <p class="eyebrow">Curated elegance • Limited edition</p>
+            <h2>Elegance in Every Thread</h2>
+            <p class="lead">
+              Discover couture-inspired silhouettes, heirloom craftsmanship, and luxury detailing crafted for modern
+              celebrations.
+            </p>
+            <div class="col-lg-6 hero-left">
+              <span class="feature-pill"><i class="bi bi-stars"></i> Luxury Bridal</span>
+              <span class="feature-pill"><i class="bi bi-gem"></i> Custom Tailoring</span>
+              <span class="feature-pill"><i class="bi bi-truck"></i> Worldwide Delivery</span>
+            </div>
+            <a href="collections.html" class="btn btn-primary btn-lg mt-3">Shop Now</a>
+            <div class="hero-controls mt-4 d-flex align-items-center gap-3">
+              <button class="control-btn" aria-label="Previous slide"><i class="bi bi-arrow-left"></i></button>
+              <button class="control-btn" aria-label="Next slide"><i class="bi bi-arrow-right"></i></button>
+            </div>
+            <div class="stat-grid mt-4">
+              <div class="stat-card">
+                <h4>120+</h4>
+                <p class="mb-0">Signature pieces</p>
+              </div>
+              <div class="stat-card">
+                <h4>24/7</h4>
+                <p class="mb-0">Private styling</p>
+              </div>
+              <div class="stat-card">
+                <h4>4.9/5</h4>
+                <p class="mb-0">Client rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=80"
+              alt="Luxury fashion model wearing an elegant boutique outfit" class="img-fluid hero-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="collections" class="section py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5 reveal">
+          <p class="eyebrow">Explore our collections</p>
+          <h3>Signature moments, reimagined</h3>
+          <p class="text-muted mx-auto" style="max-width: 760px;">
+            Discover refined bridal separates, evening glamour, festive dressing, and bespoke accessories crafted for
+            modern luxury.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="collection-card reveal">
+              <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+                alt="Designer collection attire in luxury fashion styling" />
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="feature-pill">Bridal Luxe</span>
+                  <span class="price-tag">From $2,400</span>
+                </div>
+                <h4>Designer Bridal Couture</h4>
+                <p>Heirloom-inspired gowns and statement detailing for the most unforgettable celebrations.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="collection-card reveal">
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+                alt="Luxury type of attire in premium boutique presentation" />
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="feature-pill">Evening Edit</span>
+                  <span class="price-tag">From $1,180</span>
+                </div>
+                <h4>Evening Glamour</h4>
+                <p>Polished silhouettes designed for formal occasions, galas, and cocktail evenings.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="collection-card reveal">
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+                alt="Unstitched collection showcased in elegant fabric" />
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="feature-pill">Festive Ready</span>
+                  <span class="price-tag">From $890</span>
+                </div>
+                <h4>Festive Luxe</h4>
+                <p>Rich fabrics, hand-finished embroidery, and elegant drape for celebration dressing.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="collection-card reveal">
+              <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=800&q=80"
+                alt="Luxury accessories placed on a boutique display" />
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="feature-pill">Signature Pieces</span>
+                  <span class="price-tag">From $320</span>
+                </div>
+                <h4>Accessories</h4>
+                <p>Statement jewels, embellished clutches, and signature finishing touches.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="collection-card reveal">
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80"
+                alt="New arrivals highlight luxury boutique fashion" />
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="feature-pill">Fresh Drop</span>
+                  <span class="price-tag">From $760</span>
+                </div>
+                <h4>New Arrivals</h4>
+                <p>Seasonal favorites featuring elevated silhouettes and timeless exclusives.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="collection-card reveal">
+              <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80"
+                alt="Luxury resort wear collection in boutique styling" />
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="feature-pill">Resort Edit</span>
+                  <span class="price-tag">From $640</span>
+                </div>
+                <h4>Resort & Travel</h4>
+                <p>Lightweight layers and effortless tailoring for elevated getaways and summer styling.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=1000&q=80"
+              alt="Boutique interior with luxury dress display" class="img-fluid rounded-4" />
+          </div>
+          <div class="col-lg-6 hero-right">
+            <p class="eyebrow">About Madam's Boutique</p>
+            <h3>Refined luxury for extraordinary occasions.</h3>
+            <p>
+              Madam's Boutique is a design-led luxury label known for blending timeless craftsmanship with modern
+              glamour. From bespoke bridal couture to signature accessories, each creation reflects a story of elegance,
+              empowerment, and premium detail.
+            </p>
+            <a href="about.html" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5 reveal">
+          <p class="eyebrow">Luxury pricing</p>
+          <h3>Signature styles for every celebration</h3>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="price-card reveal">
+              <div>
+                <span class="feature-pill">Most Loved</span>
+                <h4>Bridal Statement</h4>
+                <p>Custom couture silhouettes with premium embroidery and hand-finished detailing.</p>
+              </div>
+              <div class="price-tag">Starting from $2,900</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="price-card reveal">
+              <div>
+                <span class="feature-pill">Evening Chic</span>
+                <h4>Formal Eveningwear</h4>
+                <p>Architectural drape and luxe textures for gala evenings and intimate soirées.</p>
+              </div>
+              <div class="price-tag">Starting from $1,450</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="price-card reveal">
+              <div>
+                <span class="feature-pill">Everyday Luxe</span>
+                <h4>Ready-To-Wear Edit</h4>
+                <p>Refined separates and elevated essentials created for effortless elegance.</p>
+              </div>
+              <div class="price-tag">Starting from $680</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5 reveal">
+          <p class="eyebrow">Top designers</p>
+          <h3>Maison names we proudly feature</h3>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-4">
+            <div class="designer-card">
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+                alt="Sabyasachi designer couture showcase" />
+              <h4>Sabyasachi</h4>
+              <p>Royal heritage and opulent bridal craftsmanship.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="designer-card">
+              <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80"
+                alt="Anita Dongre designer fashion portrait" />
+              <h4>Anita Dongre</h4>
+              <p>Contemporary luxury with cultural roots and effortless polish.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="designer-card">
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+                alt="Manish Malhotra fashion look" />
+              <h4>Manish Malhotra</h4>
+              <p>Regal glamour celebrating grand occasions and couture drama.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="designer-card">
+              <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80"
+                alt="Payal Singhal designer fashion collection" />
+              <h4>Payal Singhal</h4>
+              <p>Refined elegance meeting modern festive luxury.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="designer-card">
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80"
+                alt="Maria B signature fashion styling" />
+              <h4>Maria B</h4>
+              <p>Luxury prêt and couture staples with a bold contemporary flair.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="designer-card">
+              <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80"
+                alt="Elan couture portfolio presentation" />
+              <h4>Elan</h4>
+              <p>Whisper-soft luxury with sculptural details and immaculate finish.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit-section section py-5">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <p class="eyebrow">Visit our store</p>
+            <h3>Experience the boutique in person.</h3>
+            <p><strong>Madam's Boutique</strong><br />Shop No. 12, Fashion Street<br />Islamabad, Pakistan</p>
+            <p><i class="bi bi-telephone"></i> +92 316 2012743</p>
+            <p><i class="bi bi-envelope"></i> info@madamsboutique.com</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="map-frame">
+              <iframe src="https://www.google.com/maps?q=Islamabad%20Pakistan&z=13&output=embed" loading="lazy"
+                title="Map showing Islamabad location" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <p class="eyebrow">Brands comparison</p>
+          <h3>Choose the maison that reflects your vision</h3>
+        </div>
+        <div class="table-responsive">
+          <table class="table compare-table align-middle">
+            <thead>
+              <tr>
+                <th scope="col">Designer</th>
+                <th scope="col">Price Range</th>
+                <th scope="col">Luxury Rating</th>
+                <th scope="col">Bridal Collection</th>
+                <th scope="col">Casual Collection</th>
+                <th scope="col">International Shipping</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sabyasachi</td>
+                <td>$3,000+</td>
+                <td>5/5</td>
+                <td>Yes</td>
+                <td>Limited</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Anita Dongre</td>
+                <td>$1,200+</td>
+                <td>4.8/5</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Manish Malhotra</td>
+                <td>$2,500+</td>
+                <td>5/5</td>
+                <td>Yes</td>
+                <td>Limited</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Payal Singhal</td>
+                <td>$900+</td>
+                <td>4.5/5</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Maria B</td>
+                <td>$700+</td>
+                <td>4.2/5</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <p class="eyebrow">Gallery</p>
+          <h3>Our hit collection in motion</h3>
+        </div>
+        <div class="row g-4 gallery-grid">
+          <div class="col-6 col-md-4">
+            <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+              data-image="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80">
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80"
+                alt="Elegant fashion look from the boutique gallery" />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+              data-image="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=80">
+              <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80"
+                alt="Luxury fashion portrait in the gallery" />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+              data-image="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80">
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+                alt="Designer collection displayed in the boutique gallery" />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+              data-image="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=80">
+              <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+                alt="Featured fashion editorial in the gallery" />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+              data-image="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=80">
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+                alt="Graceful boutique look from the gallery collection" />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+              data-image="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=1000&q=80">
+              <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=800&q=80"
+                alt="Boutique styling portrait from the collection gallery" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark border-0">
+        <div class="modal-body p-0">
+          <img id="galleryImage" src="" alt="Expanded gallery image" class="img-fluid w-100" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-3">
+          <h4>Madam's Boutique</h4>
+          <p>Luxury fashion curated for celebratory dressing, bridal elegance, and timeless refinement.</p>
+        </div>
+        <div class="col-lg-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collection</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="compare.html">Brands Compare</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Customer Service</h5>
+          <ul class="list-unstyled">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="designers.html">Designers</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Newsletter</h5>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email" aria-label="Email address" />
+            <button type="submit">Subscribe</button>
+          </form>
+          <div class="social-links mt-3">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom mt-5 pt-3 d-flex justify-content-between flex-wrap gap-3">
+        <p class="mb-0">© 2026 Madam's Boutique. All rights reserved.</p>
+        <p class="mb-0">Crafted for the modern luxury wardrobe.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
